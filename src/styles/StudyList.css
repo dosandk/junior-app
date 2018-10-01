@@ -1,0 +1,23 @@
+.list {
+    margin: 50px;
+    box-shadow: 20px 20px 50px grey;
+}
+
+.dl-style {
+    text-align: left;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    background: rgba(208, 208, 208, 0.6);
+}
+
+.dt-style {
+    box-shadow: 0 1px 0 darkgrey;
+}
+
+.dt-style:hover {
+    background-color: rgba(150, 150, 150, 0.6);
+}
+
+.dd-style {
+    padding: 5px 5px;
+}

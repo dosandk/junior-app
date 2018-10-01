@@ -1,0 +1,488 @@
+{
+  "category": [
+    {
+      "title": "Refactoring",
+      "id": 1,
+      "subtitles": [
+        {
+          "item": "Refactoring Concept (what/when/why)",
+          "url": "https://api.myjson.com/bins/nujw8"
+        },
+        {
+          "item": "Refactoring table layouts",
+          "url": "https://api.myjson.com/bins/zzsmw"
+        },
+        {
+          "item": "Refactoring for Accessibility",
+          "url": "https://api.myjson.com/bins/10l88o"
+        }
+      ]
+    },
+    {
+      "title": "Networking",
+      "id": 2,
+      "subtitles": [
+        {
+          "item": "Understanding networks: layers and protocols",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Basic understanding of TCP/IP model and protocols",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Defining internet, intranet and VPN",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Basics of Firewalls and DMZ",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Application layer protocols basics (HTTP, FTP, Telnet)",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Understanding HTTP and WWW",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Basic troubleshooting tools (ICMP, ping, traceroute)",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Client/Server model",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Sockets, IP and port addressing",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Using proxy server",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "File transfer services: FTP, TFTP, SFTP",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Name resolution services: DNS, whois",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        }
+      ]
+    },
+    {
+      "title": "CSS - Mobile",
+      "id": 3,
+      "subtitles": [
+        {
+          "item": "CSS: Simple style rules",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "CSS: Elements positioning, floating and layering",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "CSS: Tables properties",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "CSS3: FlexBox",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "CSS: Color (rgba, hsl, hsla,  transparent, currentColor)",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "CSS: Fonts, text",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "CSS: Backgrounds and Borders",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "CSS: Selectors types",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "CSS: Selectors cascading and inheritance",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "CSS: Layout flexbox, float",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Bootstrap/Foundation: Main features and concepts",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Bootstrap/Foundation: Grid, basic elements",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        }
+      ]
+    },
+    {
+      "title": "HTML-Mobile",
+      "id": 4,
+      "subtitles": [
+        {
+          "item": "Basic elements (table, div, p, form, a, ul, input): typical behavior, constructional differences for each of them",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Page Layouts with div’s (tables optional): main advantages and disadvantages",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "iFrames: advantages, restrictions",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Forms & form elements: typical structure of form, required elements, typical behavior",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Semantic layout: section, footer, article, nav tags",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Base tag",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Video, Audio: How to add on page, syntax, media event",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "HTML5 Input Types: color, date, datetime-local, email, month, number, range, search, tel, time, url, week",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Canvas: What is HTML Canvas, adding on page",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        }
+      ]
+    },
+    {
+      "title": "JS: Core",
+      "id": 5,
+      "subtitles": [
+        {
+          "item": "Identifiers and Reserved Words",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Javascript types",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Reference vs value",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Property Attributes of an object",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Type Conversion",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Increment and Decrement Operators",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Variable Scoping",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Context of calling (*.call(), *.apply(), *.bind())",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Exception Handling",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Loops",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Object - Date",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Object - Array",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Closures",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "ES6: let and scope",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "ES6: Arrow functions",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Function hoisting",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Strict mode of javascript",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Enhanced Object Literals",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Default, Rest, Spread",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Map + Set",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Promises",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        }
+      ]
+    },
+    {
+      "title": "JS: Frontend",
+      "id": 6,
+      "subtitles": [
+        {
+          "item": "Event handling (bubbling and capturing)",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "SPA: main ideas, advantages and disadvantages",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Communication with server-side: HTTP, HTTPS, WS",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "REST concept: HTTP methods and their using, additional headers",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "AJAX",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "JSON vs XML: similarities and differences, pros and cons",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        }
+      ]
+    },
+    {
+      "title": "JS: Backend",
+      "id": 7,
+      "subtitles": [
+        {
+          "item": "Node.js fundamental concepts",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Modules: importing built-in modules",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Control flow (Async tasks, Callbacks): Async lib, Promises",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Package.json: structure, required fields, dependencies vs devDependencies",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "GLOBAL: __dirname, __filename",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "HTTP create server: how to create simple server",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Reading and Writing Files: fs.open",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Process: process.cwd",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Express js: serving Static Content, app.engine, middleware, request and response, routing, working with view",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        }
+      ]
+    },
+    {
+      "title": "JS: Mobile",
+      "id": 8,
+      "subtitles": [
+        {
+          "item": "Mobile apps types",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "WebView concept",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Main concept of hybrid applications",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Mobile app development tools",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        }
+      ]
+    },
+    {
+      "title": "JS: Tools",
+      "id": 9,
+      "subtitles": [
+        {
+          "item": "npm: installing node package manager, installing required npm, global vs local installation",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "grunt/gulp: advantages and disadvantages, run grunt or gulp",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "bower/jspm: advantages and disadvantages, installation of bower, get needed dependencies",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Test Runner (e.g. Karma): how it works, structure of config file",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Testing utilities (e.g. Casper.js/Nightwatch.js): what is, creating of simple tests",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Chrome developers tools: async flag, catch all exceptions and unhandled exceptions, debugging of JS, live editing of styles",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "jslint/jshint: reasons for using it, how to configure",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Webpack: entry, output, loaders, plugins",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Typescript: Basic Types, interfaces, generics, strictNullChecks",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Babel: Main purpose, .babelrc and its options, CLI, presets and plugins",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        }
+      ]
+    },
+    {
+      "title": "JS: Frameworks",
+      "id": 10,
+      "subtitles": [
+        {
+          "item": "Theoretical and base of practical knowledge of a certain main-stream framework.",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Using a framework in a particular project. Understanding the best practices.",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Knowledge about different libraries, such as DOM manipulations, data set traversing, more complex structures, data visualization, syntax sugar, etc.",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Angular / React",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        }
+      ]
+    },
+    {
+      "title": "Code Quality (FE)",
+      "id": 11,
+      "subtitles": [
+        {
+          "item": "Validating HTML Validating CSS Naming conventions",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        }
+      ]
+    },
+    {
+      "title": "Version control",
+      "id": 12,
+      "subtitles": [
+        {
+          "item": "Git: Fundamental concepts: revisions, working copy, repository",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Git: Getting (checking out) data from repository",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Git: Examining local changes, comparing working copy to repository",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Git: Creating a branch",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Updating working copy, merging changes",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Updating to specific version",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Examining change history",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Discarding changes",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Resolving conflicts in code",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Copying, moving files, folders in repository",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Committing changes",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        },
+        {
+          "item": "Creating, discovering and breaking locks (if supported)",
+          "url": "https://api.myjson.com/bins/18bv3s"
+        }
+      ]
+    }
+  ]
+}

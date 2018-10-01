@@ -1,0 +1,7 @@
+body {
+  margin: 0 auto;
+  font-family: Book Antiqua, serif;
+  background-size: cover;
+  background: url("../images/body.jpg");
+  z-index: -100;
+}

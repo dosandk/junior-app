@@ -1,12 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import './styles/index.css';
+import Menu from "./components/Menu";
 
 ReactDOM.render(
-    <App />,
+    <Menu/>,
     document.getElementById('root')
-);
-
-registerServiceWorker();
+)

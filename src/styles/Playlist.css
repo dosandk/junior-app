@@ -1,0 +1,19 @@
+.image {
+    z-index: -1;
+    max-width: 60%;
+    max-height: 60%;
+    margin: 0 auto;
+}
+
+.image-after {
+    display: none;
+}
+
+.video {
+    height: 300px;
+    width: 550px;
+    max-width: 90%;
+    box-shadow: 5px 5px 10px grey;
+    margin: 0 auto;
+}
+

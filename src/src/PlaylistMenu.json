@@ -1,0 +1,42 @@
+{
+  "header" : "Playlist",
+  "description" : "Everyday music",
+  "labels" : [
+    {
+      "title" : "Chill Mix",
+      "url"   : "https://www.youtube.com/embed/dTW2MxfqVLI"
+    },
+    {
+      "title" : "Whale in Clouds",
+      "url"   : "https://www.youtube.com/embed/5E0JwYWEJ4k"
+    },
+    {
+      "title" : "Afterglow",
+      "url"   : "https://www.youtube.com/embed/MgApT3VHtZY"
+    },
+    {
+      "title" : "Interstellar",
+      "url"   : "https://www.youtube.com/embed/pLTq6jSGq90"
+    },
+    {
+      "title" : "Universe",
+      "url"   : "https://www.youtube.com/embed/H47TD7X_SOs"
+    },
+    {
+      "title" : "Wall",
+      "url"   : "https://www.youtube.com/embed/tHAssDglBjo"
+    },
+    {
+      "title" : "Zen",
+      "url"   : "https://www.youtube.com/embed/U6V7IjQFuJw"
+    },
+    {
+      "title" : "Pensive",
+      "url"   : "https://www.youtube.com/embed/J5yL7S3EEQo"
+    },
+    {
+      "title" : "Timber",
+      "url"   : "https://www.youtube.com/embed/wlsdMpnDBn8"
+    }
+  ]
+}
