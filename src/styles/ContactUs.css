@@ -19,7 +19,6 @@
     float: right;
 }
 .text {
-    float: left;
     padding: 20px;
     margin: auto;
     background-image: linear-gradient(to right, lightgray, transparent);

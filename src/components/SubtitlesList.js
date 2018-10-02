@@ -13,6 +13,15 @@ export default class Subtitles extends Component {
         this.clickBtn = this.clickBtn.bind(this);
     }
 
+    componentWillReceiveProps(nextProps) {
+        if (this.state.subtitleListShown !== nextProps.subtitlesShown) {
+            this.setState({
+                subtitleListShown: nextProps.subtitlesShown,
+                subtitleText: null
+            })
+        };
+    }
+
     clickBtn() {
         this.setState({
             subtitleText: null,
