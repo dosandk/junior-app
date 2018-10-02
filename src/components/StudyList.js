@@ -2,19 +2,22 @@ import React , { Component } from 'react';
 import '../styles/General.css';
 import '../styles/StudyList.css'
 import {studyTopics} from '../constants/URLs';
+import Subtitles from './SubtitlesList';
+import SubtitleText from './SubtitleText';
 
 export default class StudyList extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            listHidden: true,
-            topicsJunior: null,
-            topicSelected: null,
-            titleSelected: null
+            subtitlesListHidden: true, //should be a bool
+            topicsJunior: null, //should be an array
+            subtitleSelected: false, //should be a bool
+            subtitles: null, //should be an array
+            subtitleText: null //should be a string
         };
-        this.clickItem = this.clickItem.bind(this);
-        this.clickTitle = this.clickTitle.bind(this);
         this.clickHeader = this.clickHeader.bind(this);
+        this.clickTitle = this.clickTitle.bind(this);
+        this.clickSubtitle = this.clickSubtitle.bind(this);
     }
 
     componentWillMount() {
@@ -31,60 +34,50 @@ export default class StudyList extends Component {
 
     clickHeader() {
         this.setState({
-            listHidden: true
-        });
-    }
-
-    clickItem(e) {
-        let index = this.state.topicsJunior.category.map(el => {return el.title}).indexOf(e.target.innerHTML);
-        this.setState({
-            listHidden: false,
-            titleSelected: null,
-            topicSelected: index
+            subtitles: null,
+            subtitleText: null
         });
     }
 
     clickTitle(e) {
-        let index = this.state.topicsJunior.category[this.state.topicSelected].subtitles.map(el => {return el.item}).indexOf(e.target.innerHTML);
-        let url = this.state.topicsJunior.category[this.state.topicSelected].subtitles[index].url;
+        let index = this.state.topicsJunior.category.map(el => {return el.title}).indexOf(e.target.innerHTML);
+        let subtitles = this.state.topicsJunior.category[index].subtitles;
+        this.setState({
+            subtitlesListHidden: false,
+            subtitles: subtitles,
+            subtitleText: null
+        });
+    }
+
+    clickSubtitle(e) {
+        let index = this.state.subtitles.map(el => {return el.item}).indexOf(e.target.innerHTML);
+        let url = this.state.subtitles[index].url;
         fetch(url)
             .then(res => {
                 return res.json();
             })
             .then(data => {
                 this.setState({
-                    titleSelected: data.text
+                    subtitleText: data.text
                 });
             });
     }
 
     render() {
-        const topics = this.state.topicsJunior ?
+        const titles = this.state.topicsJunior ?
             this.state.topicsJunior.category.map(
-                item => <span className="item" key={item.id} onClick={this.clickItem}>{item.title}</span>
+                item => <span className="item" key={item.id} onClick={this.clickTitle}>{item.title}</span>
             ) : null;
-
-        const list = this.state.listHidden === false && this.state.titleSelected === null ?
-            <div className="list">
-                <dl className="dl-style">
-                    {this.state.topicsJunior.category[this.state.topicSelected].subtitles.map(
-                        item => <dt className="dt-style" key={item.item} onClick={this.clickTitle}>{item.item}</dt>
-                    )}
-                </dl>
-            </div> : null;
-
-        const text = this.state.titleSelected !== null ? <div className="dl-style">
-            {this.state.titleSelected}
-        </div> :null;
 
         return <div className="container">
             <h1 className="header" onClick={this.clickHeader}>Welcome back, Junior!</h1>
                 <div className="table">
-                    {topics}
-                    {list}
-                    {text}
+                    {titles}
+                    {this.state.subtitles ? <Subtitles subtitles={this.state.subtitles} clickSubtitle={this.clickSubtitle}/> : null}
+                    {this.state.subtitleText ? <SubtitleText text={this.state.subtitleText}/> : null}
                 </div>
-
         </div>;
     }
 }
+
+

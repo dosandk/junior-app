@@ -9,7 +9,6 @@ export default class Playlist extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            mouseOn: false,
             playlist: null,
             listShown: false
         };
@@ -43,21 +42,23 @@ export default class Playlist extends Component {
 
     render() {
 
-        const trackList = this.state.listShown ===true ?
+        const trackList = this.state.listShown === true ?
             this.state.playlist.labels.map(item => <span className="item" onClick={this.clickTrack} key={item.title}>{item.title}</span>)
             : null;
 
-        const player = this.state.listShown ===true ?
+        const player = this.state.listShown === true ?
             <iframe id="youtubeID" title="youtube" className="video" src={this.state.playlist.labels[0].url} frameBorder="0" allowFullScreen/>
             : null;
 
+        const image = this.state.listShown === false ? <img src={icon} alt="music-icon" className="image"/> : null;
+
         return <div className="container">
             <h1 className="header" onClick={this.clickBtn}>Playlist</h1>
-            <div id="insertTable" className="table">
+            <div className="table">
                 {trackList}
             </div>
             {player}
-            <img src={icon} alt="music-icon" className={this.state.listShown === false ? "image" : "image-after"}/>
+            {image}
         </div>;
     }
 }
