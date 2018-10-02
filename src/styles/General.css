@@ -70,3 +70,19 @@
     background-color: rgba(50,50,50,0.52);
     box-shadow: 2px 2px 6px grey;
 }
+
+.button {
+    background-color: whitesmoke;
+    position: relative;
+    box-shadow: 5px 5px 10px grey;
+    text-align: center;
+    font-family: Book Antiqua, serif;
+    width: 70px;
+    height: 25px;
+    margin: 12px 0 12px 0;
+}
+
+.button:active {
+    background-color: rgba(50,50,50,0.52);
+    box-shadow: 2px 2px 6px grey;
+}
