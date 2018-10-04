@@ -1,6 +1,5 @@
 import React , { Component } from 'react';
 import '../styles/Playlist.css';
-import '../styles/General.css';
 import icon from '../images/music-icon.png';
 import CustomPlaylist from "./CustomPlaylist";
 import DefaultPlaylist from "./DefaultPlaylist";

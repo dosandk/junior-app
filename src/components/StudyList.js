@@ -1,5 +1,4 @@
 import React , { Component } from 'react';
-import '../styles/General.css';
 import '../styles/StudyList.css';
 import {studyTopics} from '../constants/URLs';
 import Subtitles from './SubtitlesList';

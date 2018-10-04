@@ -1,6 +1,4 @@
 import React , { Component } from 'react';
-import '../styles/Playlist.css';
-import '../styles/General.css';
 import { playlistData } from "../constants/URLs";
 
 export default class DefaultPlaylist extends Component {
