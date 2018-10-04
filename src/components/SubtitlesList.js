@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import SubtitleText from './SubtitleText';
-import '../styles/General.css';
 
 export default class Subtitles extends Component {
     constructor(props) {

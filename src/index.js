@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
-import Menu from "./components/Menu";
+import { Provider } from 'react-redux';
+import store from './store';
+import App from "./components/App";
 
 ReactDOM.render(
-    <Menu/>,
+    <Provider store={store}>
+        <App/>
+    </Provider>,
     document.getElementById('root')
-)
+);

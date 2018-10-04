@@ -12,7 +12,7 @@ const linkStyle = {
     fontWeight: "bold"
 };
 
-const Menu = () => (
+const App = () => (
     <Router>
         <div>
             <dl className="menu">
@@ -33,4 +33,4 @@ const Menu = () => (
     </Router>
 );
 
-export default Menu;
+export default App;
